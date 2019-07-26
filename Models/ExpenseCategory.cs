@@ -7,6 +7,6 @@ namespace expense_tracker.Models
   {
     public int Id { get; set; }
     public string Name { get; set; }
-    public DateTime EnteredOn { get; set; }
+    public DateTime CreatedOn { get; set; }
   }
 }
