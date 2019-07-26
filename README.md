@@ -1,5 +1,7 @@
 # expense-tracker
 
+Experimenting with dotnet, angular, and sqlserver
+
 ## Getting Started
 
 ### Database
@@ -15,6 +17,10 @@ Connect to it via sql server management studio:
 host: 127.0.0.1,1433
 username: sa
 password: Asdf1234!
+
+#### Migrations
+
+See https://docs.microsoft.com/en-us/ef/core/managing-schemas/migrations/
 
 ### Client App
 
