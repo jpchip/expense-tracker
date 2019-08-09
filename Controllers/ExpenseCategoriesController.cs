@@ -30,9 +30,9 @@ namespace expense_tracker.Controllers
 
  
         [HttpGet("{id}")]
-        public ActionResult<string> Get(int id)
+        public async Task<ActionResult<ExpenseCategory>> Get(int id)
         {
-            return "value";
+            return await _context.ExpenseCategories.FindAsync(id);
         }
 
         [HttpPost]

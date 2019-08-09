@@ -46,8 +46,8 @@ namespace expense_tracker
             }
 
             app.UseHttpsRedirection();
-            app.UseMvc();
             app.UseStaticFiles();
+            app.UseMvc();
         }
     }
 }
